@@ -8,7 +8,7 @@ st.header("Global Language Services")
 
 col1, col2 = st.columns(2)
 
-st.image(image='logo.png', width=500)
+st.image(image='logo.png', width=700)
 
 st.markdown("## Please enter you question")
 
