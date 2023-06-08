@@ -81,10 +81,6 @@ else:
 st.write("Question:" + " " + text_input)
 
 if text_input:
-    if not openai_api_key:
-        st.warning('Please insert OpenAI API Key. Instructions [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)', icon="⚠️")
-        st.stop()
-
     prompt_template = PromptTemplate(input_variables=["query", "option_tone"], template=template)
 
     llm = OpenAI(model_name="text-davinci-003",
