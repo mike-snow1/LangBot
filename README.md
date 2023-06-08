@@ -2,6 +2,8 @@
 
 Welcome to the Translation Services Chatbot! This chatbot is designed to assist you with all your translation needs. Whether you need help translating a document, understanding a foreign language phrase, or finding professional translation services, this chatbot is here to provide you with the necessary information and support.
 
+![Example Image](logo.png)
+
 ## Features
 
 Language Translation: The chatbot can translate text from one language to another. Simply provide the source text and the desired target language, and the chatbot will generate the translated version for you.
