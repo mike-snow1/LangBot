@@ -88,7 +88,7 @@ if text_input:
     prompt_template = PromptTemplate(input_variables=["query", "option_tone"], template=template)
 
     llm = OpenAI(model_name="text-davinci-003",
-                    openai_api_key=api_key
+                    openai_api_key=st.secrets.OpenAI.key
                     )
 
     response = llm(template.format(query=text_input, option_tone=option_tone))
