@@ -12,11 +12,11 @@ st.image(image='logo.png', width=500)
 
 st.markdown("## Please enter you question")
 
-def get_api_key():
-    input_text = st.text_input(label="OpenAI API Key ",  placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input")
-    return input_text
+# def get_api_key():
+#     input_text = st.text_input(label="OpenAI API Key ",  placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input")
+#     return input_text
 
-openai_api_key = get_api_key()
+# openai_api_key = get_api_key()
 
 col1, col2 = st.columns(2)
 with col1:
@@ -77,8 +77,6 @@ else:
     Tone: {option_tone}
 
     Answer: """
-
-api_key = "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"
 
 st.write("Question:" + " " + text_input)
 
