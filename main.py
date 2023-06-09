@@ -39,7 +39,7 @@ if len(text_input.split(" ")) > 100:
     st.write("Please enter a shorter email. The maximum length is 700 words.")
     st.stop()
 
-st.markdown("### Your Converted Email:")
+st.markdown("### Your Answer:")
 
 if option_prompt == 1:
     template = """Answer the question based on the context below. If the
