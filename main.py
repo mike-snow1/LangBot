@@ -36,7 +36,7 @@ def get_text():
 text_input = get_text()
 
 if len(text_input.split(" ")) > 100:
-    st.write("Please enter a shorter email. The maximum length is 700 words.")
+    st.write("Please enter a shorter input. The maximum length is 100 words.")
     st.stop()
 
 st.markdown("### Your Answer:")
